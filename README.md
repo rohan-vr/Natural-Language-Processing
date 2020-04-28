@@ -7,13 +7,13 @@ A preview of model configuration
 
 1) Embedding Layer
 
-2) Bi-directional GRU #Encoder.
+2) Bi-directional LSTM #Encoder.
 
 3) Repeat Vector #for connecting encoder to decoder as input and output shapes might be different.
 
-4) Bi-directional GRU #Decoder
+4) LSTM #Decoder
 
-5) TimeDistributed-Dense #to get output in desired shape.
+5) Dense #to get output in desired shape.
 
 
 Dataset Used:
