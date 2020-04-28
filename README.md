@@ -22,7 +22,7 @@ IIT Bombay English-Hindi parallel corpus. The dataset can be downloaded from htt
 
 Steps to run:
 
-1) Follow steps mentioned in preprocess.py for cleaning and loading of dataset.
+1)   Follow steps mentioned in preprocess.py for cleaning and loading of dataset.
 
 2) 1) You can run this notebook in Google Colab by just clicking on the link mentioned right at the top of the notebook.
    2) If you want to run it on local machine (not recommended as it needs GPU) you can install dependencies via        requirements.txt then preprocess.py then the main nmt file.
