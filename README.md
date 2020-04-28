@@ -1,1 +1,27 @@
 # Natural-Language-Processing
+
+An implementation of English to Hindi Neural Machine Translation. This model is trained on 140,000 sentences taken from IIT Bombay English Hindi Parallel Corpus.
+
+
+A preview of model configuration
+
+1) Embedding Layer
+
+2) Bi-directional GRU #Encoder.
+
+3) Repeat Vector #for connecting encoder to decoder as input and output shapes might be different.
+
+4) Bi-directional GRU #Decoder
+
+5) TimeDistributed-Dense #to get output in desired shape.
+
+
+Dataset Used:
+
+IIT Bombay English-Hindi parallel corpus. The dataset can be downloaded from http://www.cfilt.iitb.ac.in/iitb_parallel/
+
+Steps to run:
+
+1) Follow steps mentioned in preprocess.py for cleaning and loading of dataset.
+
+2) You can run this notebook in Google Colab by just clicking on the link mentioned right  at the top of the notebook.
