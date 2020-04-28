@@ -1,4 +1,4 @@
-# Natural-Language-Processing
+# Natural-Language-Processing/Eng-Hin-NMT
 
 An implementation of English to Hindi Neural Machine Translation. This model is trained on 140,000 sentences taken from IIT Bombay English Hindi Parallel Corpus.
 
