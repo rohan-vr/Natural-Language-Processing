@@ -11,7 +11,7 @@ A preview of model configuration
 
 3) Repeat Vector #for connecting encoder to decoder as input and output shapes might be different.
 
-4) LSTM #Decoder
+4) Bi-directional LSTM #Decoder
 
 5) Dense #to get output in desired shape.
 
